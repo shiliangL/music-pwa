@@ -1,6 +1,6 @@
  <template>
   <v-container grid-list-md text-xs-center>
-    <!-- {{ hotList }} xxxxxx -->
+    <!-- {{ hotList }} xxxxxxxxx -->
     <v-layout row wrap>
       <v-carousel hide-controls hide-delimiters id="home-carousel">
         <v-carousel-item v-for="(item,i) in items" :key="i" :src="item.src"></v-carousel-item>
